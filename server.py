@@ -8,7 +8,7 @@ import databaseconfig
 from flask_cors import CORS
 import jsonify
 import coviddata
-import newsfeed
+# import newsfeed
 import random
 
 app = flask.Flask(__name__)

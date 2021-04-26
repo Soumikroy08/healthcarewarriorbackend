@@ -1,0 +1,5 @@
+Flask==0.8
+requests==0.11.1
+psycopg2
+flask_cors
+jsonify
