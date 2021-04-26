@@ -300,4 +300,6 @@ def getLocation(address):
         except:
             return {"hospitallat": 16.67613485, "hospitallong": 81.17086824015968, "hospitaladd": "NA"}
 
-app.run()
+if __name__ == '__main__':
+    # Threaded option to enable multiple instances for multiple user access support
+    app.run(threaded=True, port=5000)
