@@ -3,3 +3,4 @@ requests
 psycopg2
 flask_cors
 jsonify
+gunicorn
